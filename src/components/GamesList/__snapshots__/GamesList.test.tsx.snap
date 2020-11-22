@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamesList should match snapshot 1`] = `
+<ul
+  className="game-list"
+>
+  <li
+    className="game-list-item"
+  >
+    <a
+      className="game-list-item-link"
+      href="/name"
+      onClick={[Function]}
+    >
+      name
+    </a>
+  </li>
+</ul>
+`;

@@ -1,0 +1,22 @@
+.game-list{
+  list-style: none;
+}
+
+.game-list-item{
+  margin: 10px 0;
+  font-family: 'Architects Daughter', cursive; 
+}
+
+.game-list-item-link{
+  padding: 5px 30px;
+  border: 1px solid #8ac926;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #8ac926;
+  font-size: 3rem;
+}
+
+.game-list-item-link:hover{
+  color: #231826;
+  background-color: #8ac926;
+}

@@ -1,0 +1,32 @@
+.sound-control{
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.sound-control-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 65px;
+  height: 50px;
+  border: 1px solid #bc96e6;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color:#231826;
+  color: #bc96e6;
+  transition: .2s;
+}
+
+.sound-control-button-active{
+  background-color: #bc96e6;
+  color: #231826;
+}
+.sound-control .fas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+}

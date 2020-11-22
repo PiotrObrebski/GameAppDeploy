@@ -1,0 +1,27 @@
+.score-control{
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.score-control-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 65px;
+  height: 50px;
+}
+
+.score-text{
+  color: #bc96e6;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.score-display{
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}

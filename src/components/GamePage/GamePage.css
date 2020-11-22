@@ -1,0 +1,44 @@
+.game-page{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-page-header{
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.intro-text{
+  max-width: 590px;
+}
+
+.desc-img{
+  object-fit: contain;
+  height: 50%;
+  width: 100%;
+}
+
+.btn-confirm{
+  font-size: 1.6rem;
+  line-height: 1.6rem;;
+  padding: 15px 50px;
+  color: #8ac926;
+  border: 2px solid #8ac926;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-confirm:hover{
+  color: #231826;
+  background-color: #8ac926;
+}
+
+.btn-confirm:focus {
+  outline: none;
+}

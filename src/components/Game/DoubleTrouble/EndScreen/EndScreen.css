@@ -1,0 +1,22 @@
+.game-end-header{
+  height: 39px;
+  line-height: 39px;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.score-box{
+  height: 106px;
+  width: 325px;
+  margin: 30px auto 40px;
+  border: 1px solid #BC96E6;
+  border-radius: 5px;
+  color: #BC96E6;
+  font-size: 32px;
+  line-height: 106px;
+}
+
+.farewell-text{
+  font-size: 14px;
+  font-weight: 300;
+}

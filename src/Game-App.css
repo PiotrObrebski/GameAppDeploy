@@ -1,0 +1,14 @@
+.wrapper{
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  min-width: 800px;
+  max-width: 1024px;
+  height: 80vh;
+  background-color:  #231826;
+  overflow-y: hidden;
+}
