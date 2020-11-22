@@ -25,7 +25,7 @@ const GamePage = (props: IGamePageProps): ReactElement => {
       }
     );
 
-    getDataFromServer(GAMES_END_POINT+chosenGame[0].id)
+    getDataFromServer(GAMES_END_POINT+chosenGame[0]?.id)
     .then( response => {
       props.setCurrentGame(response)
     })
