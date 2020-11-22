@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/GameApp/static/css/main.ce0674cf.chunk.css",
+    "main.js": "/GameApp/static/js/main.a1180fd9.chunk.js",
+    "main.js.map": "/GameApp/static/js/main.a1180fd9.chunk.js.map",
+    "runtime-main.js": "/GameApp/static/js/runtime-main.d6d6f096.js",
+    "runtime-main.js.map": "/GameApp/static/js/runtime-main.d6d6f096.js.map",
+    "static/js/2.81b8d0c4.chunk.js": "/GameApp/static/js/2.81b8d0c4.chunk.js",
+    "static/js/2.81b8d0c4.chunk.js.map": "/GameApp/static/js/2.81b8d0c4.chunk.js.map",
+    "index.html": "/GameApp/index.html",
+    "static/css/main.ce0674cf.chunk.css.map": "/GameApp/static/css/main.ce0674cf.chunk.css.map",
+    "static/js/2.81b8d0c4.chunk.js.LICENSE.txt": "/GameApp/static/js/2.81b8d0c4.chunk.js.LICENSE.txt",
+    "static/media/X.63627aa8.svg": "/GameApp/static/media/X.63627aa8.svg",
+    "static/media/double-trouble-desc.4b5a7933.png": "/GameApp/static/media/double-trouble-desc.4b5a7933.png",
+    "static/media/greenLines.1e58080d.svg": "/GameApp/static/media/greenLines.1e58080d.svg",
+    "static/media/redLines.93fb6cf3.svg": "/GameApp/static/media/redLines.93fb6cf3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6d6f096.js",
+    "static/js/2.81b8d0c4.chunk.js",
+    "static/css/main.ce0674cf.chunk.css",
+    "static/js/main.a1180fd9.chunk.js"
+  ]
+}
