@@ -25,11 +25,11 @@ const ActiveGame = (props:{
   useEffect(()=>{
     setNewPage();
   }, []);
-  
+
   const checkIfRight = (event: React.MouseEvent<HTMLElement>) => {
-    const buttonContent = (event.target as Element).previousSibling?.textContent?.toLowerCase();
+    const buttonContent = (event.target as Element).parentElement?.querySelector('.active-game-button-text')?.textContent?.toLowerCase();
     const headerColor = headerElement?.style.color === 'rgb(0, 129, 255)' ? 'blue' : 'red';
-    
+
     return buttonContent === headerColor ? true : false ;
   }
 
@@ -76,7 +76,9 @@ const ActiveGame = (props:{
       <div id='header' style={{color: header.color}} className="active-game-header">{header.text.toUpperCase()}</div>
       <div className="active-game-buttons">
         <button id='btn1' onClick={handleButtonClick} style={{color: button1.color}} className=" active-game-button">
-          <p className="absolute active-game-header active-game-button-text">{button1.text.toUpperCase()}</p>
+          <p className="absolute active-game-header active-game-button-text">
+            {button1.text.toUpperCase()}
+          </p>
           <div className="absolute overlay hidden">
             <img className="absolute" src={X} alt=""/>
             </div>
@@ -90,7 +92,8 @@ const ActiveGame = (props:{
             </div>
         </button>
       </div>
-    </div>)
+    </div>
+  )
 }
 
 const mapStateToProps = (

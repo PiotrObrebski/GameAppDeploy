@@ -1,10 +1,10 @@
 .game-list{
   list-style: none;
+  padding: 50px 0;
 }
 
 .game-list-item{
   margin: 10px 0;
-  font-family: 'Architects Daughter', cursive; 
 }
 
 .game-list-item-link{
