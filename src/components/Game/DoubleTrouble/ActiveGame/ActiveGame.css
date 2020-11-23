@@ -60,3 +60,34 @@
   background-color: #BC96E6;
   transition: .2s linear;
 }
+
+.not-displayed{
+  display: none;
+}
+
+@media (max-width: 500px){
+
+  .active-game-header{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  .active-game-button{
+  width: 120px;
+  height: 60px;
+  padding: 10px 20px;
+  margin: 20px;
+  }
+  
+  .active-game-button-text{
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .overlay{
+    width: 120px;
+    height: 60px;
+  }
+}

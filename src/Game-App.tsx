@@ -1,7 +1,7 @@
 import './Game-App.css';
 
 import React, { FC, ReactElement } from 'react';
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Game from './components/Game/Game';
 import GamePage from './components/GamePage/GamePage';
@@ -14,7 +14,6 @@ const GameApp: FC = (): ReactElement => {
       <div className="wrapper">
       <Router>
         <Switch>
-          <Redirect from="/GameAppDeploy" exact to="/" />
           <Route exact path="/" component={LandingPage}/>
           <Route exact path="/:name" component={GamePage}/>
           <Route path="/:name/play" component={Game}/>

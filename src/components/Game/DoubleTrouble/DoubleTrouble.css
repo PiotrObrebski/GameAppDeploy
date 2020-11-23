@@ -14,7 +14,7 @@
 }
 
 .game-double-trouble-body{
-  flex-grow: 6; /* calculated from the UX design */
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,4 +199,57 @@
 
 .lines-end.no-transition{
   transition: 0s;
+}
+
+@media (max-width: 800px){
+  .game-double-trouble{
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    min-width: auto;
+    min-height: auto;
+    max-width: 100%;
+  }
+
+  .back-to-desc{
+    margin-top: 0;
+  }
+  
+
+  .game-double-trouble-aside{
+    width: 100vw;
+    flex-direction: row;
+    height: 60px
+  }
+
+  .aside-timer{
+    padding: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    width: 60px;
+    height: 60px;
+  }
+
+  .aside-score{
+    padding: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    width: 60px;
+    height: 60px;
+  }
+
+  .aside-sound{
+    padding: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    width: 60px;
+    height: 60px;
+
+  }
 }

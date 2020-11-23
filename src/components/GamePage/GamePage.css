@@ -42,3 +42,9 @@
 .btn-confirm:focus {
   outline: none;
 }
+
+@media (max-width: 500px){
+  .intro-text{
+    max-width: 90vw;
+  }
+}

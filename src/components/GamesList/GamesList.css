@@ -20,3 +20,9 @@
   color: #231826;
   background-color: #8ac926;
 }
+
+@media (max-width: 500px){
+  .game-list-item-link{
+    font-size: 2rem;
+  }
+}

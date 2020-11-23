@@ -25,3 +25,18 @@
   font-weight: 500;
   font-size: 24px;
 }
+
+@media (max-width: 800px) {
+  .score-control-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .score-text{
+    letter-spacing: 0;
+  }
+}

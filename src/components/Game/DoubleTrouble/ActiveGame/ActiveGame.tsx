@@ -25,7 +25,7 @@ const ActiveGame = (props:{
   useEffect(()=>{
     setNewPage();
   }, []);
-
+  
   const checkIfRight = (event: React.MouseEvent<HTMLElement>) => {
     const buttonContent = (event.target as Element).parentElement?.querySelector('.active-game-button-text')?.textContent?.toLowerCase();
     const headerColor = headerElement?.style.color === 'rgb(0, 129, 255)' ? 'blue' : 'red';
@@ -48,9 +48,10 @@ const ActiveGame = (props:{
     if(!checkIfRight(event)){
       const elementOverlay = (event.target as Element).parentElement?.querySelector('.overlay');
       elementOverlay?.classList.remove('hidden');
-      
+      elementOverlay?.querySelector('img')?.classList.remove('not-displayed')
       setTimeout(()=>{
         elementOverlay?.classList.add('hidden');
+        elementOverlay?.querySelector('img')?.classList.add('not-displayed')
 
         setNewPage()
         if (props.launchedGame.score > 0){
@@ -80,7 +81,7 @@ const ActiveGame = (props:{
             {button1.text.toUpperCase()}
           </p>
           <div className="absolute overlay hidden">
-            <img className="absolute" src={X} alt=""/>
+            <img className="absolute not-displayed" src={X} alt=""/>
             </div>
         </button>
         <button id='btn2' onClick={handleButtonClick} style={{color: button2.color}} className="active-game-button">
@@ -88,7 +89,7 @@ const ActiveGame = (props:{
             {button2.text.toUpperCase()}
           </p>
           <div className="absolute overlay hidden">
-            <img className="absolute" src={X} alt=""/>
+            <img className="absolute not-displayed" src={X} alt=""/>
             </div>
         </button>
       </div>

@@ -12,3 +12,14 @@
   background-color:  #231826;
   overflow-y: hidden;
 }
+
+@media (max-width: 800px) {
+  .wrapper{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    min-width: auto;
+    max-width: auto;
+  }
+  
+}

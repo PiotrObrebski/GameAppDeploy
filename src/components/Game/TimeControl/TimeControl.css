@@ -61,3 +61,35 @@
   font-weight: 500;
   font-size: 24px;
 }
+
+@media (max-width: 800px) {
+  .time-control{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .time-control-slider{
+    height: 8px;
+    width: 90%;
+  }
+
+  .slider-bar{
+    left: auto;
+    right: 0;
+  }
+
+  .time-control-slider-hidden .slider-bar{
+    right: -100%;
+    bottom: 0;
+  }
+
+  .time-control-bottom {
+    position: relative;
+    padding-bottom: 0;
+    width: 60px;
+  }
+  .time-control-text{
+    letter-spacing: 0;
+  }
+}
